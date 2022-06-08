@@ -1,0 +1,146 @@
+version: "3.1"
+
+intents:
+  - feelstressed
+  - jobinterview
+  - exams
+  - anxiety
+  - tipsforanxiety
+  - suicide
+  - lonely
+  - nofriend
+  - missfamily
+  - deadfamily
+  - sad
+
+
+responses:
+
+  utter_feelstressed:
+    - text: "Hey! Calm down. Tell me why you feel that way?"
+    - text: "Hey! Relax. What happened? Tell me"
+    - text: "It's okay. Take a deep breath and tell me why you feel that way?"
+    - text: "Take a deep breath. I am here. Tell me what's up?"
+
+  utter_jobinterview:
+    - text: "Do not worry."
+    - text: "Relax! I will help"
+  
+  utter_prompttips:
+    - text: "Here are some tips for the interview"
+  
+  utter_jobinterviewtips1:
+    - text: "1.Research the Company and Interviewer      "
+  utter_jobinterviewtips2:
+    - text: "2.Prepare your Questions"
+  utter_jobinterviewtips3:
+    - text: "3.Know Every Bit of your CV – Know your Strengths and Weaknesses"
+  utter_jobinterviewtips4:
+    - text: "4.Before you go into the interview, eat a meal that contains vitamin E, omega 3 and antioxidants"
+  utter_jobinterviewtips5:
+    - text: "5. Arriving 15 to 20 minutes before your scheduled interview is acceptable"
+  utter_jobinterviewtips6:
+    - text: "6.Maintain good eye contact throughout the interview. Sit up straight with your shoulders back and your feet firmly planted on the ground"
+  utter_jobinterviewtips7:
+    - text: "7.At the conclusion of the interview, thank the interviewer for his/her time and find out what the next step will be  "
+  
+  
+  utter_exams:
+    - text: "Oh! Which exam?"
+
+  utter_anxiety:
+    - text: "Breathe in through the nose for three seconds, hold the breath for two seconds and breathe out through the mouth for three seconds."
+  utter_anxiety1:
+    - text: "Your anxiety will pass. Just like any other bad moment. Please relax"
+  utter_anxiety2:
+    - text: "Here is a random tip to relieve your anxiety in general"
+  utter_anxiety3:
+    - text: "Try drinking chamomile tea"
+    - text: "Try hitting gym or exercising "
+    - text: "Try meditating"
+    - text: "Get a pet"
+    - text: "Chew a gum"
+    - text: "Listen to soothing music"
+    - text: "Spend time with friends and family"
+  utter_anxiety4:
+    - text: "To know all the tips on how to relieve anxiety ask me tips to relieve anxiety"
+
+  utter_tipsforanxiety:
+    - text: "Exercise: People who exercise regularly are less likely to experience anxiety than those who don’t exercise"
+  utter_tipsforanxiety1:
+    - text: "Reduce your caffeine intake"
+  utter_tipsforanxiety2:
+    - text: "Keeping a journal can help relieve stress and anxiety, especially if you focus on the positive."
+  utter_tipsforanxiety3:
+    - text: "For a super easy and quick stress reliever, try chewing a stick of gum."
+  utter_tipsforanxiety4:
+    - text: "Spend time with friends and family"
+  utter_tipsforanxiety5: 
+    - text: "Try watching a funny TV show or hanging out with friends who make you laugh."
+  utter_tipsforanxiety6:
+    - text: "Practice mindfulness"
+  utter_tipsforanxiety7:
+    - text: "Listen to soothing music"
+  
+  utter_suicide:
+    - text: "You are not alone in this. I’m here for you."
+    - text: "You may not believe it now, but the way you’re feeling will change."
+    - text: "When you want to give up, tell yourself you will hold off for just one more day, hour, minute—whatever you can manage."
+  utter_suicide1:
+    - text: "You can always talk to people who want to help people like you. Remember, It's not wrong to ask for help"
+  utter_suicide2:
+    - text: "Go on. Here, Give it a try. http://www.aasra.info/helpline.html"
+  
+  utter_lonely:
+    - text: "You should know I am here for you."
+  utter_lonely1:
+    - text: "It’s really important for us to realize that loneliness is much like physical hunger in that feeling it isn’t bad; it’s how our bodies tell us we have a need."
+  utter_whylonely:
+    - text: "Tell me! Why do you feel lonely?"
+  
+  utter_nofriend:
+    - text: "Oh! I am your friend who always want to help you. But I understand that you need a real friend and not an AI"
+    - text: "You have me. But I understand that you need a real friend and not an AI "
+  utter_nofriend1:
+    - text: "Here! This can help you. https://www.verywellmind.com/i-have-no-friends-what-to-do-5200867"
+
+  utter_missfamily:
+    - text: "Family is an important part of our life. Our parents, our siblings. I can understand how you feel"
+    - text: "I am pretty sure your family misses you a lot too."
+  utter_missfamily1: 
+    - text: "You can try calling them. Share how you feel about them with them"
+  
+  utter_deadfamily: 
+    - text: "I wish I had the right words, just know I care."
+    - text: "I am so sorry for your loss."
+    - text: "I don’t know how you feel, but I am here to help in any way I can."
+  utter_deadfamily1:
+    - text: "I know you miss a lot. But please take care of yourself. Try to get enough sleep and eat food on time. Your loved ones would always want to see you in your best health afterall."
+
+  utter_sad:
+    - text: "I am here for you. Hmm, let me try to make you laugh"
+  utter_sad1:
+    - text: "What’s the best thing about Switzerland? I don’t know, but the flag is a big plus."
+    - text: "Hear about the new restaurant called Karma? There’s no menu: You get what you deserve."
+    - text: "Why don’t scientists trust atoms? Because they make up everything."
+    - text: "Why don’t Calculus majors throw house parties? Because you should never drink and derive."
+    - text: "What’s the different between a cat and a comma? A cat has claws at the end of paws; A comma is a pause at the end of a clause."
+    - text: "What do you call a magic dog? A labracadabrador."
+  utter_sad2:
+    - text: "Yeah, I know I make lame jokes. But still I try making you smile. Please smile a little"
+  utter_sad3:
+    - text: "By the way, may I know why you feel sad?"
+ 
+ 
+ 
+ 
+  utter_iamabot:
+    - text: "Hello! I am a chatbot made on rasa" 
+  
+  utter_goodbye:
+    - text: "BYE!"
+
+
+session_config:
+  session_expiration_time: 60  # value in minutes
+  carry_over_slots_to_new_session: true

@@ -1,0 +1,64 @@
+version: "3.1"
+stories:
+- story: happy path 1 (.\tests\test_stories.yml)
+  steps:
+  - intent: greet  # predicted: lonely: hello there!
+  - action: utter_greet  # predicted: utter_exams
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: mood_great  # predicted: nlu_fallback: amazing
+  - action: utter_happy  # predicted: utter_exams
+  - action: action_listen  # predicted: action_default_fallback
+- story: happy path 2 (.\tests\test_stories.yml)
+  steps:
+  - intent: greet  # predicted: lonely: hello there!
+  - action: utter_greet  # predicted: utter_exams
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: mood_great  # predicted: nlu_fallback: amazing
+  - action: utter_happy  # predicted: utter_exams
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: goodbye  # predicted: feelstressed: bye-bye!
+  - action: utter_goodbye
+- story: sad path 1 (.\tests\test_stories.yml)
+  steps:
+  - intent: greet  # predicted: sad: hello
+  - action: utter_greet  # predicted: utter_exams
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: mood_unhappy  # predicted: deadfamily: not good
+  - action: utter_cheer_up  # predicted: utter_exams
+  - action: utter_did_that_help  # predicted: action_default_fallback
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: affirm  # predicted: exams: yes
+  - action: utter_happy  # predicted: utter_exams
+  - action: action_listen  # predicted: action_default_fallback
+- story: sad path 2 (.\tests\test_stories.yml)
+  steps:
+  - intent: greet  # predicted: sad: hello
+  - action: utter_greet  # predicted: utter_exams
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: mood_unhappy  # predicted: deadfamily: not good
+  - action: utter_cheer_up  # predicted: utter_exams
+  - action: utter_did_that_help  # predicted: action_default_fallback
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: deny  # predicted: nlu_fallback: not really
+  - action: utter_goodbye  # predicted: utter_exams
+  - action: action_listen  # predicted: action_default_fallback
+- story: sad path 3 (.\tests\test_stories.yml)
+  steps:
+  - intent: greet  # predicted: sad: hi
+  - action: utter_greet  # predicted: utter_exams
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: mood_unhappy  # predicted: feelstressed: very terrible
+  - action: utter_cheer_up  # predicted: utter_exams
+  - action: utter_did_that_help  # predicted: action_default_fallback
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: deny  # predicted: deadfamily: no
+  - action: utter_goodbye  # predicted: utter_exams
+  - action: action_listen  # predicted: action_default_fallback
+- story: say goodbye (.\tests\test_stories.yml)
+  steps:
+  - intent: goodbye  # predicted: feelstressed: bye-bye!
+  - action: utter_goodbye
+- story: bot challenge (.\tests\test_stories.yml)
+  steps:
+  - intent: bot_challenge  # predicted: exams: are you a bot?
+  - action: utter_iamabot

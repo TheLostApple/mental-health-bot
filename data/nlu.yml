@@ -1,0 +1,155 @@
+version: "3.1"
+
+nlu:
+
+- intent: feelstressed
+  examples: |
+    - hey! I am feeling stressed
+    - I am feeling stressed
+    - I am worried
+    - I am panicking
+    - feeling stressed
+    - feeling worried
+    - I am feeling troubled
+    - I am troubled
+    - Something is bothering me
+    - I am bothered
+    - I am really feeling tensed
+    - I am feeling tensed
+    - feeling tensed
+    - worried 
+    - stressed
+    - tensed
+    - I am feeling concerned
+    - feeling concerned
+    - I am stressed out
+
+- intent: jobinterview
+  examples: |
+    - I have a job interview
+    - I have an interview
+    - job interview
+    - interview
+    - I have an interview to prepare for
+    - I have to prepare for an interview
+    - My interview is tomorrow
+    - My interview is in few hours
+    - My interview is soon
+
+- intent: exams
+  examples: |
+    - I am stressed because of exam
+    - I have an exam
+    - Exam stress
+    - exams
+    - exams are near
+    - my exam is tomorrow
+    - my exam is soon
+    - exam coming up
+    - I have a test
+    - I have a test tomorrow
+    - I have a test coming up
+    - Test
+
+- intent: anxiety
+  examples: |
+    - I am having anxiety
+    - I am havng anxiety attack
+    - I am having a panic attack
+    - my anxiety is killing me
+    - anxiety attack
+    - help me! I am having anxiety
+    - help me with my anxiety
+
+- intent: tipsforanxiety
+  examples: |
+    - tips for relieveing anxiety
+    - tips to relieve anxiety
+    - tips to get rid of anxiety
+    - how to get rid of anxiety?
+    - how to relieve anxiety?
+    - give me some tips for anxiety
+    - tips for anxiety 
+
+- intent: suicide
+  examples: |
+    - I want to commit suicide
+    - I am feeling suicidal
+    - I don't want to live anymore
+    - I want to die
+    - I want to kill myself
+    - I am dying
+    - I wanna die
+    - I wanna kill myself
+    - I want to leave this world
+    - I am having suicidal thoughts
+  
+- intent: lonely
+  examples: |
+    - I am feeling lonely
+    - It feels lonely
+    - I feel alone
+    - I am really lonely
+    - I am alone
+    - I am lonely
+    - There's no one for me
+    - I am alone in this world
+  
+- intent: nofriend
+  examples: |
+    - I don't have a friend
+    - I have no friends
+    - I have no friend
+    - no friend
+    - I don't have anyone to talk to
+    - I don't have any friends
+
+- intent: missfamily
+  examples: |
+    - I miss my parents
+    - I really miss my mom
+    - I really miss my family
+    - I miss my mother
+    - I miss my dad
+    - I miss my father
+    - I miss my family
+    - I miss my siblings
+    - I miss my brother
+    - I miss my sister
+    - missing my family
+    - missing my brother
+    - missing my sister
+    - my family is not around
+    - my mom is not around
+      
+- intent: deadfamily
+  examples: |
+    - My mom is no more
+    - My dad is no more
+    - My brother is no more
+    - My sister is no more
+    - My mom is dead
+    - My mother is dead
+    - My sister is dead
+    - My brother is dead
+    - My father is dead
+    - My mom is not in this world
+    - My father is not in this world
+    - My sister is not in this world
+    - My dad is not in this world
+    - My father is not in this world
+
+- intent: sad
+  examples: |
+    - I am feeling sad
+    - I am sad
+    - I am feeling depressed
+    - I am feeling gloomy
+    - I'm sad
+    - feeling sad
+    - feeling down
+    - I don't feel happy
+    - I am really sad
+    - I am really depressed
+    - I feel low
+    - feeling low

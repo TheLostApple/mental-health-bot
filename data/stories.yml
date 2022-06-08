@@ -1,0 +1,91 @@
+version: "3.1"
+
+stories:
+
+- story: acute stress
+  steps:
+  - intent: feelstressed
+  - action: utter_feelstressed
+
+- story: interview stress
+  steps:
+  - intent: jobinterview
+  - action: utter_jobinterview
+  - action: utter_prompttips
+  - action: utter_jobinterviewtips1
+  - action: utter_jobinterviewtips2
+  - action: utter_jobinterviewtips3
+  - action: utter_jobinterviewtips4
+  - action: utter_jobinterviewtips5
+  - action: utter_jobinterviewtips6
+  - action: utter_jobinterviewtips7
+
+- story: exam stress
+  steps:
+  - intent: exams
+  - action: utter_exams
+
+- story: anxietyattack
+  steps:
+  - intent: anxiety
+  - action: utter_anxiety
+  - action: utter_anxiety1
+  - action: utter_anxiety2
+  - action: utter_anxiety3
+  - action: utter_anxiety4
+
+- story: anxietytips
+  steps:
+  - intent: tipsforanxiety
+  - action: utter_tipsforanxiety
+  - action: utter_tipsforanxiety1
+  - action: utter_tipsforanxiety2
+  - action: utter_tipsforanxiety3
+  - action: utter_tipsforanxiety4
+  - action: utter_tipsforanxiety5
+  - action: utter_tipsforanxiety6
+  - action: utter_tipsforanxiety7
+
+- story: suicidalthoughts
+  steps:
+  - intent: suicide
+  - action: utter_suicide
+  - action: utter_suicide1
+  - action: utter_suicide2
+  
+
+- story: feelinglonely
+  steps:
+  - intent: lonely
+  - action: utter_lonely
+  - action: utter_lonely1
+  - action: utter_whylonely
+
+- story: dealnofriends
+  steps:
+  - intent: nofriend
+  - action: utter_nofriend
+  - action: utter_nofriend1
+
+- story: dealmissfamily
+  steps:
+  - intent: missfamily
+  - action: utter_missfamily
+  - action: utter_missfamily1
+
+- story: dealdeadfamily
+  steps: 
+  - intent: deadfamily
+  - action: utter_deadfamily
+  - action: utter_deadfamily1
+
+- story: feelingsad
+  steps: 
+  - intent: sad
+  - action: utter_sad
+  - action: utter_sad1
+  - action: utter_sad2
+  - action: utter_sad3
+
+
+
